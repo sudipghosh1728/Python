@@ -4,8 +4,9 @@ even_list=[]
 n=int(input("Enter how many numbers do you want to take :\t"))
 print("Enter the elements:\n")
 for i in range(0,n):
-    x=int(input(lst))
+    x=int(input())
     lst.append(x)
+    print(lst,end="\n")
 print("The list is :\t",(lst))
 for i in range(0,len(lst)):
     if (lst[i]%2==0):
